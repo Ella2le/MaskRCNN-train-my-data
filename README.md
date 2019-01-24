@@ -161,9 +161,6 @@ start "" "test.bat"
 
 
 
-
-
-
 pic是label的jpg原图，（ps：我label的png颜色比较鲜艳哎，不是一团黑，确定png的bit depth是8）
 
 ### 3、训练自己的数据
