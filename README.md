@@ -114,6 +114,7 @@ pip install labelme
 for %%i in (*.json) do labelme_json_to_dataset "%%i"
 
 pause
+
 把上面语句保存到txt文件中，另存为bat文件，移到你json文件所在目录下，
 
 再终端labelme环境激活的状态下输入
@@ -143,6 +144,7 @@ start "" "test.bat"
 ![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/9.png)
 ![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/10.png)
 ![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/11.png)
+
 pic是label的jpg原图，（ps：我label的png颜色比较鲜艳哎，不是一团黑，确定png的bit depth是8）
 
 ### 3、训练自己的数据
