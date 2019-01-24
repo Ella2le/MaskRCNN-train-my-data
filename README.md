@@ -20,6 +20,8 @@ http://docs.anaconda.com/anaconda/install/
 
 bash ~/Downloads/Anaconda3-5.3.0-Linux-x86_64.sh
 ### 2、在Anaconda下配置自己的MaskRCNN环境
+**感谢Mark Jay制作的视频，真的适合小白入门**
+
 conda create -n MaskRCNN python=3.6 pip  #新建一个名字为MaskRCNN的环境，注意python版本和自己的对应
 
 python --version #查看python版本
