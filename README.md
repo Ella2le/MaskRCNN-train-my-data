@@ -68,12 +68,9 @@ https://github.com/matterport/Mask RCNN/releases]
 
 在jupyter中打开，Mask_RCNN/samples/demo.ipynb
 
-修改detection的读入自己找的一张doge的图片，图片放在Mask_RCNN/mrcnn/images 里面
-
-
-
-
-
+修改detection的读入找的一张doge的图片，图片放在Mask_RCNN/mrcnn/images 里面
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/22.png)
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/2.png)
 测试安装成功
 
 ## 二、准备自己的数据集（labelme）
@@ -83,20 +80,7 @@ https://github.com/matterport/Mask RCNN/releases]
 https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46
 
 官方有一个blog推荐了一些label的工具，截图如下
-
-
-
-附上链接：（部分需要科学上网）
-
-VGG Image Annotator（VIA）
-
-Labelme
-
-Rectlabel
-
-Labelbox
-
-COCO UI
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/3.png)
 
 ### 2、labelme的安装
 最后按照教程
@@ -114,17 +98,13 @@ conda activate labelme
 pip install labelme
 
 然后日常使用，就下面两句话（我在windows下做的label，操作是一样的）
-
-
-
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/4.png)
 然后操作基本就很简单了截图如下
-
-
-
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/5.png)
 保存后会生成一个json文件，
 
 进入json所在文件，用labelme自带的数据转换 高亮语句
-
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/6.png)
 
 
 @echo off
@@ -139,8 +119,7 @@ start "" "test.bat"
 即可将目录下所有的json文件批量转换
 
 最后得到如截图所示文件
-
-
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/7.png)
 
 **注意**
 
@@ -156,11 +135,10 @@ start "" "test.bat"
 
 按照参考教程，保存整理为如下几个文件即可，放在Mask_RCNN目录下（你也可以去code里面修改dataset_rooot_path为自己的数据集路径）
 
-
-
-
-
-
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/8.png)
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/9.png)
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/10.png)
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/11.png)
 pic是label的jpg原图，（ps：我label的png颜色比较鲜艳哎，不是一团黑，确定png的bit depth是8）
 
 ### 3、训练自己的数据
