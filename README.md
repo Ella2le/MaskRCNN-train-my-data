@@ -110,7 +110,9 @@ pip install labelme
 
 
 @echo off
+
 for %%i in (*.json) do labelme_json_to_dataset "%%i"
+
 pause
 把上面语句保存到txt文件中，另存为bat文件，移到你json文件所在目录下，
 
