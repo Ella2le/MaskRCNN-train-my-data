@@ -63,7 +63,7 @@ https://github.com/matterport/Mask RCNN/releases]
 
 ### 6、测试是否安装成功
 在终端敲入jupyter notebook
-
+![](https://github.com/Ella2le/MaskRCNN-train-my-data/blob/master/images/1.png)
 
 
 在jupyter中打开，Mask_RCNN/samples/demo.ipynb
