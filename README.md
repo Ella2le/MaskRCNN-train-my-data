@@ -8,8 +8,8 @@ https://blog.csdn.net/l297969586/article/details/79140840
 
 https://www.youtube.com/watch?v=2TikTv6PWDw
 
-一、配置MaskRCNN环境
-1、安装Anaconda
+##一、配置MaskRCNN环境
+###1、安装Anaconda
 https://www.anaconda.com/
 
 官方安装指南（有啥问题直接去找比较全）
@@ -19,7 +19,7 @@ http://docs.anaconda.com/anaconda/install/
 直接在终端中运行Anaconda的安装程序即可（请输入自己的安装包所在路径）
 
 bash ~/Downloads/Anaconda3-5.3.0-Linux-x86_64.sh
-2、在Anaconda下配置自己的MaskRCNN环境
+###2、在Anaconda下配置自己的MaskRCNN环境
 conda create -n MaskRCNN python=3.6 pip  #新建一个名字为MaskRCNN的环境，注意python版本和自己的对应
 
 python --version #查看python版本
@@ -48,20 +48,20 @@ IPython[all]
 
 https://blog.csdn.net/yeler082/article/details/80943040 可以参考该博客
 
-3、克隆安装Mask RCNN Repo
+###3、克隆安装Mask RCNN Repo
 git clone https://github.com/matterport/Mask_RCNN.git
-4、安装pycocotools
+###4、安装pycocotools
 git clone https://github.com/philferriere/cocoapi.git
 
 pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=pythonAPI
 （PS：教程里说pycocotools需要visualc++ 2015 build tools，但是那个网址没打开，我没安装后面也成功了，有可能之前装搞c++时候装过）
 
-5、下载coco预训练的权重
+###5、下载coco预训练的权重
 https://github.com/matterport/Mask RCNN/releases]
 
 下载mask_rcnn_coco.h5
 
-6、测试是否安装成功
+###6、测试是否安装成功
 在终端敲入jupyter notebook
 
 
@@ -76,8 +76,8 @@ https://github.com/matterport/Mask RCNN/releases]
 
 测试安装成功
 
-二、准备自己的数据集（labelme）
-1、label工具的选择
+##二、准备自己的数据集（labelme）
+###1、label工具的选择
 参考
 
 https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46
@@ -98,7 +98,7 @@ Labelbox
 
 COCO UI
 
-2、labelme的安装
+###2、labelme的安装
 最后按照教程
 
 https://blog.csdn.net/qq_29462849/article/details/81037343#commentBox
@@ -166,7 +166,7 @@ start "" "test.bat"
 
 pic是label的jpg原图，（ps：我label的png颜色比较鲜艳哎，不是一团黑，确定png的bit depth是8）
 
-3、训练自己的数据
+###3、训练自己的数据
 我用的是https://blog.csdn.net/qq_29462849/article/details/81037343#commentBox
 
 里面分享大code，感谢前辈分享，让小白方便入门
