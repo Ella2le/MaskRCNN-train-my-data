@@ -9,7 +9,7 @@ https://blog.csdn.net/l297969586/article/details/79140840
 https://www.youtube.com/watch?v=2TikTv6PWDw
 
 ## 一、配置MaskRCNN环境
-###1、安装Anaconda
+### 1、安装Anaconda
 https://www.anaconda.com/
 
 官方安装指南（有啥问题直接去找比较全）
