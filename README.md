@@ -58,8 +58,7 @@ pip install git+https://github.com/cocodataset/cocoapi#subdirectory=pythonAPI
 （PS：教程里说pycocotools需要visualc++ 2015 build tools，但是那个网址没打开，我没安装后面也成功了，有可能之前装搞c++时候装过）
 
 ### 5、下载coco预训练的权重
-https://github.com/matterport/Mask RCNN/releases
-
+https://github.com/Ella2le/Mask_RCNN/releases
 下载mask_rcnn_coco.h5
 
 ### 6、测试是否安装成功
