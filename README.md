@@ -29,22 +29,7 @@ python --version #查看python版本
 activate MaskRCNN #激活刚才新建的环境 if permission denied use "source activate MaskRCNN"
 
 pip install -r requirement.txt  #安装必要的库
- txt里的内容
-
-numpy
-scipy
-Pillow
-cython
-matplotlib
-scikit-image
-tensorflow>=1.3.0
-keras>=2.0.8
-opencv-python
-h5py
-imgaug
-IPython[all]
-
-把上面的内容复制到requirements.txt文件里，保存到当前操作的路径中即可（我就是在~/Download/下保存）
+ txt里的内容 requirements.txt文件里，保存到当前操作的路径中即可（我就是在~/Download/下保存）
 
 对应的版本号，如果有特殊要求请自己确认下，特别是GPU版本和CUDA对应的
 
@@ -54,6 +39,7 @@ https://blog.csdn.net/yeler082/article/details/80943040 可以参考该博客
 git clone https://github.com/matterport/Mask_RCNN.git
 ### 4、安装pycocotools
 git clone https://github.com/cocodataset/cocoapi.git
+
 pip install git+https://github.com/cocodataset/cocoapi#subdirectory=pythonAPI
 （PS：教程里说pycocotools需要visualc++ 2015 build tools，但是那个网址没打开，我没安装后面也成功了，有可能之前装搞c++时候装过）
 
