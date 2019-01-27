@@ -53,13 +53,12 @@ https://blog.csdn.net/yeler082/article/details/80943040 可以参考该博客
 ### 3、克隆安装Mask RCNN Repo
 git clone https://github.com/matterport/Mask_RCNN.git
 ### 4、安装pycocotools
-git clone https://github.com/philferriere/cocoapi.git
-
-pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=pythonAPI
+git clone https://github.com/cocodataset/cocoapi.git
+pip install git+https://github.com/cocodataset/cocoapi#subdirectory=pythonAPI
 （PS：教程里说pycocotools需要visualc++ 2015 build tools，但是那个网址没打开，我没安装后面也成功了，有可能之前装搞c++时候装过）
 
 ### 5、下载coco预训练的权重
-https://github.com/matterport/Mask RCNN/releases]
+https://github.com/matterport/Mask RCNN/releases
 
 下载mask_rcnn_coco.h5
 
