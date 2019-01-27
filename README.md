@@ -26,7 +26,7 @@ conda create -n MaskRCNN python=3.6 pip  #新建一个名字为MaskRCNN的环境
 
 python --version #查看python版本
 
-activate MaskRCNN #激活刚才新建的环境
+activate MaskRCNN #激活刚才新建的环境 if permission denied use "source activate MaskRCNN"
 
 pip install -r requirement.txt  #安装必要的库
  txt里的内容
