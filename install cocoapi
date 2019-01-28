@@ -1,0 +1,49 @@
+一.python2.7安装cocoapi
+
+Installation
+ 
+
+在ubuntu14.04的时候可以安装成功
+
+从github上clone: https://github.com/pdollar/coco
+因为我只使用python, 所以只编译python接口:
+cd coco
+cd PythonAPI
+make
+报了个错:
+
+需要通过pip安装Cython:
+
+pip install Cython
+再次make, OK.
+
+API
+以为会有要记录的东西, 结果没有, 项目里有个jupyter notebook 文件, 该有的都有了.
+
+在ubuntu16.04的时候，需要按照如下步骤：
+
+cd coco/PythonAPI
+make
+make install
+python setup.py install
+
+ 
+
+二.通过python3安装cocoapi
+
+git clone https://github.com/pdollar/coco.git
+
+cd coco/PythonAPI
+
+python3 setup.py build_ext --inplace
+
+python3 setup.py build_ext install
+
+三.验证cocoapi是否安装成功
+
+进入python命令行就可以直接导入了，执行import pycocotools命令不报错说明已经安装成功了
+--------------------- 
+作者：mdjxy63 
+来源：CSDN 
+原文：https://blog.csdn.net/mdjxy63/article/details/81146964 
+版权声明：本文为博主原创文章，转载请附上博文链接！
